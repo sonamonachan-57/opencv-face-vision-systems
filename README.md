@@ -520,24 +520,13 @@ Place the model file in the same directory as the Python script.
 
 ---
 
-# 📸 Output
+# 📸 Output:
 
-The system will display:
+<p align="center">
+  <img src="output/man-age.png" width="250"/>
+  <img src="output/women-age.png" width="250"/>
+  </p>
 
-- A bounding box around detected faces
-- Predicted **age**
-- Predicted **gender**
-
-Example label:
-
-```
-Male, 25
-Female, 32
-```
-
-Displayed above the detected face in the video frame.
-
----
 
 # 🌍 Applications
 
