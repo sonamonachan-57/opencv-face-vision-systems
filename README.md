@@ -539,17 +539,6 @@ Displayed above the detected face in the video frame.
 
 ---
 
-# 🚀 Future Enhancements
-
-- Add **emotion detection**
-- Support **multiple faces simultaneously**
-- Improve accuracy using larger YOLO models
-- Deploy as a **web application**
-- Integrate **face recognition for identity detection**
-- Add **real-time analytics dashboard**
-
----
-
 # 🌍 Applications
 
 - Smart surveillance systems
