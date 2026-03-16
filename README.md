@@ -653,25 +653,16 @@ emotion-detection
 
 ---
 
-# 📸 Output
+# 📸 Output:
 
-The system displays:
+<p align="center">
+  <img src="output/happy.png" width="250"/>
+  <img src="output/angry.png" width="250"/>
+  <img src="output/sad.png" width="250"/>
+ <img src="output/tear.png" width="250"/>
+ <img src="output/surprise.png" width="250"/>
+ </p>
 
-- A bounding box around detected faces
-- The predicted **dominant emotion**
-
-Example output on screen:
-
-```
-happy
-sad
-angry
-surprise
-fear
-neutral
-```
-
-Displayed above the video frame.
 
 ---
 
