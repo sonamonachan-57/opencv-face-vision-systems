@@ -1,17 +1,3 @@
-import os
-import sys
-
-venv_path = '/home/sona-inc5619/mp_env/lib/python3.12/site-packages'
-venv_path1 = '/home/sona-inc5619/deep_env/lib/python3.12/site-packages'
-
-if os.path.exists(venv_path) and venv_path not in sys.path:
-    sys.path.insert(0, venv_path)
-
-if os.path.exists(venv_path1) and venv_path1 not in sys.path:
-    sys.path.insert(0, venv_path1)
-
-
-
 import cv2
 from ultralytics import YOLO
 from deepface import DeepFace
