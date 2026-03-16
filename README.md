@@ -426,6 +426,141 @@ This value can be adjusted depending on user behavior and environment.
 
 - Healthcare fatigue monitoring
 
+# 8.👤 Real-Time Age and Gender Detection using YOLOv8 and DeepFace
+
+## 📌 Overview
+
+This project implements a **real-time age and gender detection system** using computer vision and deep learning. The system detects faces from a webcam feed using **YOLOv8 face detection**, then analyzes each detected face to estimate **age and gender** using **DeepFace**.
+
+The detected information is displayed on the screen along with bounding boxes around the detected faces.
+
+This project demonstrates how **object detection and facial analysis models** can be combined to build intelligent real-time applications.
+
+---
+
+# 🎯 Objective
+
+The objective of this project is to create a system that can:
+
+- Detect human faces in real time
+- Predict the **age** of the detected person
+- Identify the **gender**
+- Display results directly on the video stream
+- Run efficiently on a webcam feed
+
+---
+
+# ⚙️ How It Works
+
+```
+Webcam Video Input
+        │
+        ▼
+Face Detection (YOLOv8)
+        │
+        ▼
+Face Cropping
+        │
+        ▼
+Facial Analysis (DeepFace)
+        │
+        ▼
+Age Prediction
+        │
+        ▼
+Gender Prediction
+        │
+        ▼
+Display Results on Video Frame
+```
+
+---
+
+# 🛠️ Technologies Used
+
+- **Python**
+- **OpenCV** – Video processing and visualization
+- **Ultralytics YOLOv8** – Face detection
+- **DeepFace** – Age and gender analysis
+- **NumPy** – Array processing
+
+---
+
+# ✨ Features
+
+- Real-time face detection
+- Age estimation from facial features
+- Gender prediction
+- Live webcam processing
+- Bounding box visualization
+- Fast inference using YOLOv8
+
+---
+
+# 📦 Installation
+
+## 1️⃣ Install Required Libraries
+
+```bash
+pip install opencv-python ultralytics deepface
+```
+
+---
+
+## 2️⃣ Download YOLOv8 Face Model
+
+Download the face detection model:
+
+```
+yolov8n-face.pt
+```
+
+Place the model file in the same directory as the Python script.
+
+
+---
+
+# 📸 Output
+
+The system will display:
+
+- A bounding box around detected faces
+- Predicted **age**
+- Predicted **gender**
+
+Example label:
+
+```
+Male, 25
+Female, 32
+```
+
+Displayed above the detected face in the video frame.
+
+---
+
+# 🚀 Future Enhancements
+
+- Add **emotion detection**
+- Support **multiple faces simultaneously**
+- Improve accuracy using larger YOLO models
+- Deploy as a **web application**
+- Integrate **face recognition for identity detection**
+- Add **real-time analytics dashboard**
+
+---
+
+# 🌍 Applications
+
+- Smart surveillance systems
+- Retail customer analytics
+- Interactive marketing systems
+- Human-computer interaction
+- Demographic analysis
+
+---
+
+
 
 
 
